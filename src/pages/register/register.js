@@ -1,5 +1,5 @@
 import { useState } from "react";
-import http from "../../companets/axios/axios";
+import http from "../../axios/axios";
 import { useNavigate } from "react-router-dom";
 import loading from '../../assets/img/loading.svg'
 const Register = () => {

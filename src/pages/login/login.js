@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
-import http from "../../companets/axios/axios"
+import http from "../../axios/axios"
 import loading from '../../assets/img/loading.svg'
 const Login = () => {
     const [load, setLoad] = useState(false)
