@@ -33,7 +33,6 @@ const Main = () => {
     const edited = (item) => {
         setModal2(true)
         setEdid(item)
-        // http.post(`//`)
     }
     return (
         <div className="relative flex justify-center mt-5">
@@ -85,4 +84,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Main;
